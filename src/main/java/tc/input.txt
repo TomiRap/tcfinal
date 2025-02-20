@@ -1,0 +1,37 @@
+// Declaraciones de variables
+int x = 5;
+float y = 3.14;
+int resultado = 2;
+
+// Función principal
+void main() {
+
+
+    // Operaciones aritméticas
+    int a = 10 + 5 * 2;  // Multiplicación antes que suma
+    a = 3;
+    float b = 4.5 - 2.0;
+
+
+    // Operaciones lógicas
+    // Estructura de control IF con ELSE
+    if ((x > 3) && (y < 4)) {
+        x = x + 2;
+    } else {
+        x = x - 10;
+    }
+
+    // Bucle FOR
+    for (int i = 0; i < 5; i++) {
+        resultado = resultado + i;
+    }
+
+    // Bucle WHILE
+    while (x > 0) {
+        x = x - 1;
+    }
+}
+
+/*
+Fin de codigo
+*/

@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    int y = 20;
+    int resultado;
+    int a = 5;
+    int b = 10;
+    int c = a + b;
+    int d = a + b; // Operación redundante
+
+    resultado = (x + y) * 2; // Expresión que puede ser simplificada
+
+    if (resultado > 20) {
+        printf("Resultado mayor que 20.\n");
+    } else {
+        printf("Resultado menor o igual que 20.\n");
+    }
+
+    return 0;
+}
